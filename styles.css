@@ -23,5 +23,40 @@ svg {
 }
 
 .secondcolumn {
-    background: rgb(35, 35, 35);
+    background: #9E3780;
 }
+
+i {
+    color: black;
+}
+ /* width */
+ ::-webkit-scrollbar {
+    width: 0.3rem;
+ 
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  } 
+
+  .customizearrow {
+      width: 0.8rem;
+  }
+
+  #dropdownbutton {
+        background: black;
+        border-radius: 10rem; 
+ 
+      
+  }
