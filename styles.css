@@ -1,0 +1,27 @@
+#bodybackground {
+    color: #b3b3b3;
+    background: black;
+    font-family: Helvetica; Arial; 
+}
+
+.logoclass {
+    width: 7rem;
+}
+
+.navfont {
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+svg {
+    width: 0.75rem;
+}
+
+.songslist {
+    margin-top: 1rem; 
+    line-height: 0.75rem;
+}
+
+.secondcolumn {
+    background: rgb(35, 35, 35);
+}
