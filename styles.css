@@ -1,3 +1,7 @@
+body {
+    overflow:hidden;
+}
+
 #bodybackground {
     color: #b3b3b3;
     background: black;
@@ -13,8 +17,10 @@
     font-weight: bold;
 }
 
-svg {
-    width: 0.75rem;
+
+.scrollablecolumn {
+    height: 500px;
+    overflow-y: auto;
 }
 
 .songslist {
@@ -50,13 +56,76 @@ i {
     background: #555;
   } 
 
-  .customizearrow {
-      width: 0.8rem;
+.customizearrow {
+    width: 1.3rem;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.customizearrow:hover {
+    opacity: 1;
+}
+
+#dropdownbuttonstyle {
+        background: black;
+        color: white;
+        font-size: 0.65rem;  
+        border-radius: 3rem;
   }
 
-  #dropdownbutton {
-        background: black;
-        border-radius: 10rem; 
- 
-      
+#dropdownmenustyle {
+    background: black;
+    
+}
+
+#dropdownmenustyle a {
+    color: white !important;
+    font-size: 0.8rem;
+   
+}
+
+.gradient {
+    background: linear-gradient(#A43986, black);
+ }
+
+.playbutton {
+    width: 3rem;
+    border-radius: 2rem;
+    background: transparent;
+} 
+
+h6 {
+    color:white;
+}
+
+li h6 {
+    font-size: 12px;
+}
+
+.liststyle h6 {
+    font-size: 12 px;
+}
+
+.fontsmallersize {
+    font-size: 0.5rem;
+}
+
+.backgroundcardbottom {
+    background: transparent;
+
+}
+
+#cardbottomopacity {
+    background-color: rgba(34, 34, 34, 0);
+
+}
+
+.cardbottomopacity:hover {
+    transition: 0.2;
+    opacity: 1;
+}
+
+  .footercontainer {
+      height: 1rem;
+
   }
