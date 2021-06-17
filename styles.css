@@ -107,14 +107,17 @@ i {
 }
 
 .gradient {
-    background: linear-gradient(#A43986, black);
- }
+    
+    background: rgb(164,57,134);
+    background: linear-gradient(180deg, rgba(164,57,134,1) 0%, rgba(129,46,106,1) 40%, rgba(0,0,0,1) 70%);
+}
 
 .playbutton {
     width: 3rem;
     border-radius: 2rem;
     background: transparent;
     opacity: 1;
+    margin-top: 0rem;
 } 
 
 .playbutton:hover {
@@ -132,6 +135,19 @@ h6 {
     color:white;
 }
 
+#scrollablecolumn2 > div > ol > li:hover {
+    background: gray;
+    opacity: 0.4;
+}
+
+#scrollablecolumn2 > div > ol > li:hover h6 {
+    color: white;
+    opacity: 1;
+}
+
+form > div > ul > li > strong:hover {
+    text-decoration: underline;
+}
 
 
 .liststyle h6 {
